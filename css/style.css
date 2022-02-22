@@ -5,7 +5,6 @@ html{
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 body {
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     font-family: 'Montserrat', sans-serif;
@@ -18,7 +17,6 @@ h1 {
 h2 {
     text-align: center;
 }
-
 .contenido {
     background-color: white;
     max-width: 1100px;
@@ -26,8 +24,6 @@ h2 {
     height: 100%;
     padding: 20px;
 }
-
-
 @media (min-width:768px) {
     .contenedor {
         display: flex;
@@ -42,7 +38,6 @@ h2 {
 .formulario-busqueda span {
     color: red;
 }
-
 .input {
     margin-bottom: 1rem;
     display: flex;
@@ -75,20 +70,17 @@ h2 {
     align-self: flex-end;
     border:none;
     transition: background-color .3s ease-in-out;
-} 
+}
 .input input[type="submit"]:hover {
     cursor: pointer;
     background-color: #384e9d;
 }
-
 .error {
     padding: 1rem;
     border: 1px solid red;
     background-color: rgb(249, 121, 121);
     color: white;
 }
-
-
 #resultado {
     white-space: pre-wrap;
     padding: 2rem;
