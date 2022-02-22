@@ -12,7 +12,4 @@ export class API{
             respuesta
         }
     }
-
-
-
 }
